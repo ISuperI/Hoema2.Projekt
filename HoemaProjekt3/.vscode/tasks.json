@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HoemaProjekt3 Build & Run",
+			"type": "shell",
+			"command": "g++ main.cpp CMyVektor.cpp -o main && start main.exe",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
